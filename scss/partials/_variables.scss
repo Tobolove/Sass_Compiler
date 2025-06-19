@@ -1,0 +1,10 @@
+$primary-color: #4CAF50;
+$secondary-color: #FFC107;
+$font-primary: 'Roboto', sans-serif;
+
+
+@mixin fontStyle($size) {
+    font-size: $size;
+    color: red;
+    font-weight: bold;
+}
